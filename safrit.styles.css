@@ -139,6 +139,7 @@ footer .icon{
 
 
 /* ----- HANDLE PREFERS REDUCED MOTION FOR THE ICON ANIMATIONS ----- */
+@media (prefers-reduced-motion: reduced) {
 /* --------------- BEGIN USER PREFERS REDUCED MOTION QUERY --------------- */
     @-webkit-keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
@@ -146,6 +147,7 @@ footer .icon{
     @keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
     }
+}
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
 
 
@@ -326,7 +328,7 @@ img{
     }
 }
 
-@media (min-width: 2160) {
+@media (min-width: 2160px) {
     img {
         width: 300px;
         max-width: 100%;
