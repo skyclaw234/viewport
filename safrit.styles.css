@@ -1,4 +1,4 @@
-/* YOUR NAME GOES HERE */
+/* Brant Safrit */
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
 
@@ -73,9 +73,9 @@ table {
 
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
+@media (prefers-color-scheme: dark) {
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
-@media (prefers-color-scheme: dark) {
     body {
       background-color: darkgray;
     }
@@ -308,31 +308,11 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-img{
-    width: 300px;
-    max-width: 300px;
-}  
-
-
-@media (min-width: 720px) {
-    img {
-        width: 200px;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 1440px) {
-    img {
-        width: 250px;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 2160px) {
-    img {
+@media screen and (min-width: 300px){
+    img{
         width: 300px;
-        max-width: 100%;
-    }
+        max-width: 300px;
+    }  
 }
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
